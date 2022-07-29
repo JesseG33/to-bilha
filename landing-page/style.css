@@ -1,0 +1,127 @@
+.nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    font-size: 25px;
+    list-style: none;
+    flex-wrap: wrap;
+    border: none;
+    margin: 0;
+    background-image: url(./images/Glaxy-background.jpg);
+    background-size: cover;
+    border: 5px;
+    border-style: ridge;
+    border-color: black;
+}
+
+.nav-bar li{
+    margin-top: 50px;
+}
+
+
+
+
+
+body,html{
+    background-image: url(./images/matt-gross-RO3-oMM3s8A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:fit-content;
+    border: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: azure;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+.planetary-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.sun, .mercury, .venus, .earth, .mars, .jupiter, .saturn, .uranus, .neptune, .pluto{
+    display: flex;
+    max-width: 700px;
+    max-height: 700px;
+    color: antiquewhite;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+ }
+
+ .planets{
+    margin: 0;
+    border: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+ }
+
+ .mercury, .venus, .earth, .mars{
+    margin-right: 20px;
+ }
+
+.sun{
+    height: 450px;
+    width: 450px;
+}
+
+.mercury{
+   max-height: 50px;
+   max-width: 50px;
+   margin-right: 5px;
+}
+
+.venus{
+    max-width: 30px;
+    max-width: 30px;
+    margin-top: 20px;
+}
+
+.earth{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.mars{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.jupiter{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 0;
+}
+
+.saturn{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.uranus{
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.neptune{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.pluto{
+    max-width: 10px;
+    max-height:10px;
+    margin-left: 20px;
+}
