@@ -1,3 +1,16 @@
+.nav-bar{
+    border: 4px;
+    border-style: groove;
+    border-color: ghostwhite;
+    background-image: url(./images/Glaxy-background.jpg);
+    background-size: cover;
+    border-style: ridge;
+    border-color: black;
+    text-align: center;
+    font-size: larger;
+}
+
+
 .nav-bar ul{
     display: flex;
     justify-content: space-evenly;
@@ -7,20 +20,11 @@
     flex-wrap: wrap;
     border: none;
     margin: 0;
-    background-image: url(./images/Glaxy-background.jpg);
-    background-size: cover;
-    border: 5px;
-    border-style: ridge;
-    border-color: black;
 }
 
 .nav-bar li{
-    margin-top: 50px;
+    margin-top: 20px;
 }
-
-
-
-
 
 body,html{
     background-image: url(./images/matt-gross-RO3-oMM3s8A-unsplash.jpg);
@@ -34,15 +38,26 @@ body,html{
     flex-direction: column;
 }
 
+.body{
+    border: 2px;
+    border-style: groove;
+    border-color: ghostwhite;
+}
+
 h1{
     color: azure;
     text-align: center;
     font-size: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .planetary-container{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-width: 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 50px;
@@ -50,6 +65,7 @@ h1{
 
 .sun, .mercury, .venus, .earth, .mars, .jupiter, .saturn, .uranus, .neptune, .pluto{
     display: flex;
+    justify-content: space-evenly;
     max-width: 700px;
     max-height: 700px;
     color: antiquewhite;
@@ -58,70 +74,235 @@ h1{
     font-size: 10px;
  }
 
- .planets{
-    margin: 0;
+ .planets-top{
+    margin: 10px;
     border: 0;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px;
     gap: 10px;
  }
-
  .mercury, .venus, .earth, .mars{
     margin-right: 20px;
  }
-
-.sun{
-    height: 450px;
-    width: 450px;
+.sun-box{
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+.sun-box ul{
+    list-style: none;
+}
+
+.sun{
+    width: 500px;
+    height: 500px;
+    clip-path: circle();
+}
+
+
+.mercury-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: small;
+}
+
+.mercury-box ul{
+    list-style: none;
+}
 .mercury{
-   max-height: 50px;
-   max-width: 50px;
+   max-height: 100px;
+   max-width: 100px;
    margin-right: 5px;
 }
 
-.venus{
-    max-width: 30px;
-    max-width: 30px;
-    margin-top: 20px;
+.venus-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: small;
 }
 
+.venus-box ul{
+    list-style: none;
+}
+
+.venus{
+    max-width: 110px;
+    max-width: 110px;
+    
+}
+
+.earth-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: small;
+}
+
+.earth-box ul{
+    list-style: none;
+}
 .earth{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.mars-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: small; 
+}
+
+.mars-box ul{
+    list-style: none;
+}
+
+.mars{
     max-width: 70px;
     max-height: 70px;
 }
 
-.mars{
-    max-width: 20px;
-    max-height: 20px;
+.planets-mid{
+    margin: 10px;
+    border: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
 }
 
+.jupiter-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: small; 
+}
+
+.jupiter-box ul{
+    list-style: none;
+}
 .jupiter{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 400px;
+    max-height: 400px;
     padding: 0;
 }
 
+.saturn-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: small; 
+}
+
+.saturn-box ul{
+    list-style: none;
+}
 .saturn{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
+.uranus-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: small;
+}
+
+.uranus-box ul{
+    list-style: none;
+}
 .uranus{
-    max-width: 90px;
-    max-height: 90px;
+    max-width: 310px;
+    max-height: 310px;
 }
 
+.planets-bottom{
+    margin: 10px;
+    border: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+
+.neptune-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: small;
+}
+
+.neptune-box ul{
+    list-style: none;
+}
 .neptune{
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 180px;
+    max-height: 180px;
 }
 
-.pluto{
-    max-width: 10px;
-    max-height:10px;
+.pluto-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: small;
+    margin-top: 30px;
     margin-left: 20px;
+}
+
+.pluto-box ul{
+    list-style: none;
+}
+.pluto{
+    max-width: 40px;
+    max-height:40px;
+    margin-left: 20px;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    border: 5px;
+    background-color: slategray;
 }
