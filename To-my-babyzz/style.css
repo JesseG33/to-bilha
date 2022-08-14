@@ -1,0 +1,42 @@
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:black;
+    background-image: url(./images/petunia-1.jpeg);
+    height: 130px;
+    font-size: 40px;
+}
+
+body{
+    background-color: azure;
+}
+
+.top{
+    font-size: 25px;
+    text-align: center;
+    color:dimgrey;
+}
+.puppy-box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+    height: 60px;
+    background-color:cadetblue;
+}
